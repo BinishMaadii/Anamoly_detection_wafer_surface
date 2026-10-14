@@ -80,6 +80,3 @@ Run the script in a Kaggle notebook with GPU enabled and the MIIC dataset and Mi
 
 `/kaggle/working/results`
 
-## Limitations
-
-The reported run uses 900 normal images for training and 100 for calibration, sampled from the normal test-image directory; it does not use the separate `Anomaly_train` folder. Pixel AUROC alone does not establish segmentation quality, and the results should be validated on an independent dataset before deployment.
